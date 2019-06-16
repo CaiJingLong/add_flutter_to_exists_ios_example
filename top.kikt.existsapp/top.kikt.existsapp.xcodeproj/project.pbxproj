@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		529BBE3922B5EC08003E3730 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 529BBE3822B5EC08003E3730 /* AppDelegate.m */; };
+		529BBE3C22B5EC08003E3730 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529BBE3B22B5EC08003E3730 /* ViewController.m */; };
+		529BBE3F22B5EC08003E3730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529BBE3D22B5EC08003E3730 /* Main.storyboard */; };
+		529BBE4122B5EC09003E3730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529BBE4022B5EC09003E3730 /* Assets.xcassets */; };
+		529BBE4422B5EC09003E3730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529BBE4222B5EC09003E3730 /* LaunchScreen.storyboard */; };
+		529BBE4722B5EC09003E3730 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 529BBE4622B5EC09003E3730 /* main.m */; };
+		529BBE5122B5EC09003E3730 /* top_kikt_existsappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 529BBE5022B5EC09003E3730 /* top_kikt_existsappUITests.m */; };
+		C9102EDDD32561CA8C4EF59C /* Pods_top_kikt_existsapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBAD3C714AC2446237AF765 /* Pods_top_kikt_existsapp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		529BBE4D22B5EC09003E3730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 529BBE2C22B5EC08003E3730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 529BBE3322B5EC08003E3730;
+			remoteInfo = top.kikt.existsapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		203A4F156F616DF7F3563625 /* Pods-top.kikt.existsapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-top.kikt.existsapp.debug.xcconfig"; path = "Target Support Files/Pods-top.kikt.existsapp/Pods-top.kikt.existsapp.debug.xcconfig"; sourceTree = "<group>"; };
+		49E9E7359954ADC1494746E2 /* Pods-top.kikt.existsapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-top.kikt.existsapp.release.xcconfig"; path = "Target Support Files/Pods-top.kikt.existsapp/Pods-top.kikt.existsapp.release.xcconfig"; sourceTree = "<group>"; };
+		529BBE3422B5EC08003E3730 /* top.kikt.existsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = top.kikt.existsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		529BBE3722B5EC08003E3730 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		529BBE3822B5EC08003E3730 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		529BBE3A22B5EC08003E3730 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		529BBE3B22B5EC08003E3730 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		529BBE3E22B5EC08003E3730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		529BBE4022B5EC09003E3730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		529BBE4322B5EC09003E3730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		529BBE4522B5EC09003E3730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529BBE4622B5EC09003E3730 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		529BBE4C22B5EC09003E3730 /* top.kikt.existsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = top.kikt.existsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		529BBE5022B5EC09003E3730 /* top_kikt_existsappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = top_kikt_existsappUITests.m; sourceTree = "<group>"; };
+		529BBE5222B5EC09003E3730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CBAD3C714AC2446237AF765 /* Pods_top_kikt_existsapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_top_kikt_existsapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529BBE3122B5EC08003E3730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9102EDDD32561CA8C4EF59C /* Pods_top_kikt_existsapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529BBE4922B5EC09003E3730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4305FAF9FCDC8FD4EDB1F37B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				203A4F156F616DF7F3563625 /* Pods-top.kikt.existsapp.debug.xcconfig */,
+				49E9E7359954ADC1494746E2 /* Pods-top.kikt.existsapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		529BBE2B22B5EC08003E3730 = {
+			isa = PBXGroup;
+			children = (
+				529BBE3622B5EC08003E3730 /* top.kikt.existsapp */,
+				529BBE4F22B5EC09003E3730 /* top.kikt.existsappUITests */,
+				529BBE3522B5EC08003E3730 /* Products */,
+				4305FAF9FCDC8FD4EDB1F37B /* Pods */,
+				C4E3A897CFF4E1E3108F5E12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		529BBE3522B5EC08003E3730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529BBE3422B5EC08003E3730 /* top.kikt.existsapp.app */,
+				529BBE4C22B5EC09003E3730 /* top.kikt.existsappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529BBE3622B5EC08003E3730 /* top.kikt.existsapp */ = {
+			isa = PBXGroup;
+			children = (
+				529BBE3722B5EC08003E3730 /* AppDelegate.h */,
+				529BBE3822B5EC08003E3730 /* AppDelegate.m */,
+				529BBE3A22B5EC08003E3730 /* ViewController.h */,
+				529BBE3B22B5EC08003E3730 /* ViewController.m */,
+				529BBE3D22B5EC08003E3730 /* Main.storyboard */,
+				529BBE4022B5EC09003E3730 /* Assets.xcassets */,
+				529BBE4222B5EC09003E3730 /* LaunchScreen.storyboard */,
+				529BBE4522B5EC09003E3730 /* Info.plist */,
+				529BBE4622B5EC09003E3730 /* main.m */,
+			);
+			path = top.kikt.existsapp;
+			sourceTree = "<group>";
+		};
+		529BBE4F22B5EC09003E3730 /* top.kikt.existsappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				529BBE5022B5EC09003E3730 /* top_kikt_existsappUITests.m */,
+				529BBE5222B5EC09003E3730 /* Info.plist */,
+			);
+			path = top.kikt.existsappUITests;
+			sourceTree = "<group>";
+		};
+		C4E3A897CFF4E1E3108F5E12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CBAD3C714AC2446237AF765 /* Pods_top_kikt_existsapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		529BBE3322B5EC08003E3730 /* top.kikt.existsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529BBE5522B5EC09003E3730 /* Build configuration list for PBXNativeTarget "top.kikt.existsapp" */;
+			buildPhases = (
+				3270ACB3BFCE39E65A18C54B /* [CP] Check Pods Manifest.lock */,
+				529BBE3022B5EC08003E3730 /* Sources */,
+				529BBE3122B5EC08003E3730 /* Frameworks */,
+				529BBE3222B5EC08003E3730 /* Resources */,
+				F552510E61C011C4DF94E92F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = top.kikt.existsapp;
+			productName = top.kikt.existsapp;
+			productReference = 529BBE3422B5EC08003E3730 /* top.kikt.existsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		529BBE4B22B5EC09003E3730 /* top.kikt.existsappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529BBE5822B5EC09003E3730 /* Build configuration list for PBXNativeTarget "top.kikt.existsappUITests" */;
+			buildPhases = (
+				529BBE4822B5EC09003E3730 /* Sources */,
+				529BBE4922B5EC09003E3730 /* Frameworks */,
+				529BBE4A22B5EC09003E3730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				529BBE4E22B5EC09003E3730 /* PBXTargetDependency */,
+			);
+			name = top.kikt.existsappUITests;
+			productName = top.kikt.existsappUITests;
+			productReference = 529BBE4C22B5EC09003E3730 /* top.kikt.existsappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529BBE2C22B5EC08003E3730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = cjl;
+				TargetAttributes = {
+					529BBE3322B5EC08003E3730 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					529BBE4B22B5EC09003E3730 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 529BBE3322B5EC08003E3730;
+					};
+				};
+			};
+			buildConfigurationList = 529BBE2F22B5EC08003E3730 /* Build configuration list for PBXProject "top.kikt.existsapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 529BBE2B22B5EC08003E3730;
+			productRefGroup = 529BBE3522B5EC08003E3730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				529BBE3322B5EC08003E3730 /* top.kikt.existsapp */,
+				529BBE4B22B5EC09003E3730 /* top.kikt.existsappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		529BBE3222B5EC08003E3730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BBE4422B5EC09003E3730 /* LaunchScreen.storyboard in Resources */,
+				529BBE4122B5EC09003E3730 /* Assets.xcassets in Resources */,
+				529BBE3F22B5EC08003E3730 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529BBE4A22B5EC09003E3730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3270ACB3BFCE39E65A18C54B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-top.kikt.existsapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F552510E61C011C4DF94E92F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-top.kikt.existsapp/Pods-top.kikt.existsapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-top.kikt.existsapp/Pods-top.kikt.existsapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-top.kikt.existsapp/Pods-top.kikt.existsapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529BBE3022B5EC08003E3730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BBE3C22B5EC08003E3730 /* ViewController.m in Sources */,
+				529BBE4722B5EC09003E3730 /* main.m in Sources */,
+				529BBE3922B5EC08003E3730 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529BBE4822B5EC09003E3730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BBE5122B5EC09003E3730 /* top_kikt_existsappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		529BBE4E22B5EC09003E3730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 529BBE3322B5EC08003E3730 /* top.kikt.existsapp */;
+			targetProxy = 529BBE4D22B5EC09003E3730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		529BBE3D22B5EC08003E3730 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529BBE3E22B5EC08003E3730 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		529BBE4222B5EC09003E3730 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529BBE4322B5EC09003E3730 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		529BBE5322B5EC09003E3730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		529BBE5422B5EC09003E3730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		529BBE5622B5EC09003E3730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203A4F156F616DF7F3563625 /* Pods-top.kikt.existsapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344756CAN4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = top.kikt.existsapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "top.kikt.top-kikt-existsapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		529BBE5722B5EC09003E3730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E9E7359954ADC1494746E2 /* Pods-top.kikt.existsapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344756CAN4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = top.kikt.existsapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "top.kikt.top-kikt-existsapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		529BBE5922B5EC09003E3730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9JTUZLM65;
+				INFOPLIST_FILE = top.kikt.existsappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "top.kikt.top-kikt-existsappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = top.kikt.existsapp;
+			};
+			name = Debug;
+		};
+		529BBE5A22B5EC09003E3730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9JTUZLM65;
+				INFOPLIST_FILE = top.kikt.existsappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "top.kikt.top-kikt-existsappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = top.kikt.existsapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		529BBE2F22B5EC08003E3730 /* Build configuration list for PBXProject "top.kikt.existsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529BBE5322B5EC09003E3730 /* Debug */,
+				529BBE5422B5EC09003E3730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529BBE5522B5EC09003E3730 /* Build configuration list for PBXNativeTarget "top.kikt.existsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529BBE5622B5EC09003E3730 /* Debug */,
+				529BBE5722B5EC09003E3730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529BBE5822B5EC09003E3730 /* Build configuration list for PBXNativeTarget "top.kikt.existsappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529BBE5922B5EC09003E3730 /* Debug */,
+				529BBE5A22B5EC09003E3730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 529BBE2C22B5EC08003E3730 /* Project object */;
+}

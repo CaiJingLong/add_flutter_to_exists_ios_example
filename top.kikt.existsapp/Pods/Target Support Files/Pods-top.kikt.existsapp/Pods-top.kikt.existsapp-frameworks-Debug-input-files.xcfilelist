@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-top.kikt.existsapp/Pods-top.kikt.existsapp-frameworks.sh
+${PODS_ROOT}/../../flutter-lib/ios_frameworks/Flutter.framework
+${PODS_ROOT}/../../flutter-lib/ios_frameworks/App.framework
+${PODS_ROOT}/../../flutter-lib/ios_frameworks/shared_preferences.framework
+${PODS_ROOT}/../../flutter-lib/ios_frameworks/FlutterPluginRegistrant.framework
+${PODS_ROOT}/../../flutter-lib/ios_frameworks/path_provider.framework

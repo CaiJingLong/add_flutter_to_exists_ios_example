@@ -1,0 +1,6 @@
+framework module Pods_top_kikt_existsapp {
+  umbrella header "Pods-top.kikt.existsapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "flutter-lib",
+  "version": "0.1.0",
+  "summary": "A short description of flutter-lib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cjl_spy@163.com/flutter-lib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cjl_spy@163.com": "cjl_spy@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cjl_spy@163.com/flutter-lib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "flutter-lib/Classes/**/*"
+}

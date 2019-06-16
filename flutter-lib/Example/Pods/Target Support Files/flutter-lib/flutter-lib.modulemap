@@ -1,0 +1,6 @@
+framework module flutter_lib {
+  umbrella header "flutter-lib-umbrella.h"
+
+  export *
+  module * { export * }
+}

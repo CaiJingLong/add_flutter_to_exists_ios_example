@@ -1,0 +1,4 @@
+use_frameworks!
+target 'flutter-lib_Tests' do
+  pod 'flutter-lib', :path => '../'
+end
