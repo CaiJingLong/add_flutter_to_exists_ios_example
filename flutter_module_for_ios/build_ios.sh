@@ -12,14 +12,21 @@ rm -rf build
 
 flutter packages get
 
+addFlag(){
+    cat .ios/Podfile > tmp1.txt
+    echo "use_frameworks!" >> tmp2.txt
+    cat tmp1.txt >> tmp2.txt
+    cat tmp2.txt > .ios/Podfile
+    rm tmp1.txt tmp2.txt
+}
+
 echo "检查 .ios/Podfile文件状态"
 a=$(cat .ios/Podfile)
 if [[ $a == use* ]]; then
     echo '已经添加use_frameworks, 不再添加'
 else
     echo '未添加use_frameworks,准备添加'
-    a=$(gsed '1i use_frameworks!' .ios/Podfile)
-    echo $a >".ios/Podfile"
+    addFlag
     echo "添加use_frameworks 完成"
 fi
 
